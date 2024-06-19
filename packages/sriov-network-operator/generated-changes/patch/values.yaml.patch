@@ -56,8 +56,8 @@
 +    repository: rancher/hardened-ib-sriov-cni
 +    tag: v1.0.3-build20240327
 +  ovsCni:
-+    repository: quay.io/kubevirt/ovs-cni-plugin
-+    tag: latest
++    repository:
++    tag:
 +  sriovDevicePlugin: 
 +    repository: rancher/hardened-sriov-network-device-plugin
 +    tag: v3.6.2-build20240327
