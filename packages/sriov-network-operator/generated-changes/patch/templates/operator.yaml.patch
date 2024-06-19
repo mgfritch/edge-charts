@@ -22,7 +22,7 @@
            command:
              - sriov-network-operator
            resources:
-@@ -53,22 +58,22 @@
+@@ -53,21 +58,21 @@
                  fieldRef:
                    fieldPath: metadata.namespace
              - name: SRIOV_CNI_IMAGE
