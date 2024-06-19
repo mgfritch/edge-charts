@@ -31,7 +31,7 @@
    # log level for both operator and sriov-network-config-daemon
    logLevel: 2
    # disable node draining when configuring SR-IOV, set to true in case of a single node
-@@ -91,12 +94,36 @@
+@@ -94,13 +97,39 @@
  
  # Image URIs for sriov-network-operator components
  images:
@@ -39,6 +39,7 @@
 -  sriovConfigDaemon: ghcr.io/k8snetworkplumbingwg/sriov-network-operator-config-daemon
 -  sriovCni: ghcr.io/k8snetworkplumbingwg/sriov-cni
 -  ibSriovCni: ghcr.io/k8snetworkplumbingwg/ib-sriov-cni
+-  ovsCni: quay.io/kubevirt/ovs-cni-plugin
 -  sriovDevicePlugin: ghcr.io/k8snetworkplumbingwg/sriov-network-device-plugin
 -  resourcesInjector: ghcr.io/k8snetworkplumbingwg/network-resources-injector
 -  webhook: ghcr.io/k8snetworkplumbingwg/sriov-network-operator-webhook
@@ -54,6 +55,9 @@
 +  ibSriovCni: 
 +    repository: rancher/hardened-ib-sriov-cni
 +    tag: v1.0.3-build20240327
++  ovsCni:
++    repository: quay.io/kubevirt/ovs-cni-plugin
++    tag: latest
 +  sriovDevicePlugin: 
 +    repository: rancher/hardened-sriov-network-device-plugin
 +    tag: v3.6.2-build20240327
