@@ -45,25 +45,25 @@
 -  webhook: ghcr.io/k8snetworkplumbingwg/sriov-network-operator-webhook
 +  operator:
 +    repository: rancher/hardened-sriov-network-operator
-+    tag: v1.2.0-build20240327
++    tag: v1.3.0-build20240620
 +  sriovConfigDaemon:
 +    repository: rancher/hardened-sriov-network-config-daemon
-+    tag: v1.2.0-build20240327
++    tag: v1.3.0-build20240620
 +  sriovCni:
 +    repository: rancher/hardened-sriov-cni
-+    tag: v2.7.0-build20240327
++    tag: v2.8.0-build20240620
 +  ibSriovCni: 
 +    repository: rancher/hardened-ib-sriov-cni
-+    tag: v1.0.3-build20240327
++    tag: v1.1.1-build20240620
 +  sriovDevicePlugin: 
 +    repository: rancher/hardened-sriov-network-device-plugin
-+    tag: v3.6.2-build20240327
++    tag: v3.7.0-build20240620
 +  resourcesInjector: 
 +    repository: rancher/hardened-sriov-network-resources-injector
-+    tag: v1.5-build20240327
++    tag: v1.6.0-build20240620
 +  webhook:
 +    repository: rancher/hardened-sriov-network-webhook
-+    tag: v1.2.0-build20240327
++    tag: v1.3.0-build20240620
  
  imagePullSecrets: []
 +
