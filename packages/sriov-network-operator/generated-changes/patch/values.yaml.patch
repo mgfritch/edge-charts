@@ -31,7 +31,7 @@
    # log level for both operator and sriov-network-config-daemon
    logLevel: 2
    # disable node draining when configuring SR-IOV, set to true in case of a single node
-@@ -94,13 +97,39 @@
+@@ -94,13 +97,36 @@
  
  # Image URIs for sriov-network-operator components
  images:
@@ -55,9 +55,6 @@
 +  ibSriovCni: 
 +    repository: rancher/hardened-ib-sriov-cni
 +    tag: v1.0.3-build20240327
-+  ovsCni:
-+    repository:
-+    tag:
 +  sriovDevicePlugin: 
 +    repository: rancher/hardened-sriov-network-device-plugin
 +    tag: v3.6.2-build20240327
