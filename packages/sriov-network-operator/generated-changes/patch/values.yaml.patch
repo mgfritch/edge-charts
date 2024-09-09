@@ -18,7 +18,7 @@
 +  resourcePrefix: "rancher.io"
    cniBinPath: "/opt/cni/bin"
    clusterType: "kubernetes"
-   admissionControllers:
+   metricsExporter:
 @@ -85,9 +88,9 @@
          #      -----END EC PRIVATE KEY-----
  sriovOperatorConfig:
